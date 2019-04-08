@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".onBoardingActivity"
-    android:background="#000">
+    android:background="#E90C0C">
 
     <LinearLayout
         android:id="@+id/dotsLayout"
@@ -40,7 +40,8 @@
         android:layout_marginStart="308dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="32dp"
-        android:background="@android:drawable/screen_background_light_transparent"
+        android:textColor="#fff"
+        android:background="@android:drawable/list_selector_background"
         android:text="Next" />
 
     <Button
@@ -53,7 +54,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="313dp"
         android:layout_marginBottom="28dp"
-        android:background="@android:drawable/screen_background_light_transparent"
+        android:background="@android:drawable/list_selector_background"
+        android:textColor="#fff"
         android:text="Back" />
 
 </RelativeLayout>

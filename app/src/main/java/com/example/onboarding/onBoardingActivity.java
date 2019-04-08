@@ -82,9 +82,9 @@ public class onBoardingActivity extends AppCompatActivity {
                 backButton.setEnabled(true);
 
                 nextButton.setText("Next");
-                backButton.setText("BAck");
+                backButton.setText("Back");
 
-                backButton.setVisibility(View.INVISIBLE);
+                backButton.setVisibility(View.VISIBLE);
             }
             if(i==2)
             {
